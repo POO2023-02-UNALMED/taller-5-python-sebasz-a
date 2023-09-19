@@ -2,7 +2,7 @@ from gestion.zoologico import Zoologico
 from zooAnimales.animal import Animal
 
 class Zona:
-    def __init__(self, nombre, zoo):
+    def __init__(self, nombre, zoo = None):
         self._nombre = nombre
         self._zoo = [zoo]
         self._animales = []
