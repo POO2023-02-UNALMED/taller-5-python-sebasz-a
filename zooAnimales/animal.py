@@ -1,5 +1,3 @@
-from gestion.zona import Zona
-
 class Animal:
     _totalAnimales = 0
     def __init__(self, nombre, edad, habitat, genero):
